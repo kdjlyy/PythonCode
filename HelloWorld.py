@@ -1,1 +1,2 @@
-print("Hello World")
+message = "lovelive kfc"
+print(message.lower())
