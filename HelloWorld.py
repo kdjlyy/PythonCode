@@ -1,3 +1,4 @@
+# 第二章 变量和简单数据类型
 message = "hello python world!"
 print(message.title())
 print(message.upper())
