@@ -1,3 +1,4 @@
-git add .//通过git status查看状态
+git add .
+(git status)
 git commit -m "XXXX"//(XXX为注释 必须填)
 git push origin master
