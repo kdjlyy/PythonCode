@@ -36,7 +36,7 @@ motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati', 'ducati']
 motorcycles.remove('ducati')  # 根据键值删除元素，remove()只删除第一个指定的值
 print(motorcycles)  # ['honda', 'yamaha', 'suzuki', 'ducati']
 # 组织列表的方式
-# list.sort()对列表进行永久性排序、list.sorted()对列表进行临时排序
+# list.sort()对列表进行永久性排序、sorted(list)对列表进行临时排序
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort()  # 错误写法：print(cars.sort())，因为sort()无返回值
 print(cars)  # ['audi', 'bmw', 'subaru', 'toyota']
@@ -48,7 +48,11 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(sorted(cars))  # ['audi', 'bmw', 'subaru', 'toyota']
 print(cars)  # ['bmw', 'audi', 'toyota', 'subaru']
 print(sorted(cars, reverse=True))  # ['toyota', 'subaru', 'bmw', 'audi']
-
+########################################################
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.reverse()
+print(cars)  # ['subaru', 'toyota', 'audi', 'bmw']
+print(len(cars))  # 4
 
 
 
