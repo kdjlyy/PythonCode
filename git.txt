@@ -1,7 +1,7 @@
 git add .
 (git status)
 git commit -m "XXXX"//(XXX为注释 必须填)
-git push -u origin master
+git push (-u) origin master
 
 
 git remote set-url origin 新git地址 (git@github.com:kdjlyy/PythonCode.git)
