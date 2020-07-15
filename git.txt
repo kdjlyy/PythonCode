@@ -1,4 +1,10 @@
 git add .
 (git status)
 git commit -m "XXXX"//(XXX为注释 必须填)
-git push origin master
+git push -u origin master
+
+
+git remote set-url origin 新git地址 (git@github.com:kdjlyy/PythonCode.git)
+git remote -v
+
+<img src="/kdjlyy/Pictures/blob/master/Python%E7%BC%96%E7%A8%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5%E5%B0%81%E9%9D%A2.jpg?raw=true" alt="Python编程从入门到实践封面.jpg">
