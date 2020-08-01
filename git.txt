@@ -14,7 +14,17 @@ git pull
 第三个是：再更新一次（其实也可以不用，第二步命令做过了其实）
 
 
+更换同账号的github仓库方法
 git remote set-url origin 新git地址(git@github.com:kdjlyy/PythonCode.git)
 git remote -v
 
-<img src="/kdjlyy/Pictures/blob/master/Python%E7%BC%96%E7%A8%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5%E5%B0%81%E9%9D%A2.jpg?raw=true" alt="Python编程从入门到实践封面.jpg">
+
+第一次部署：
+git init
+git clone xxx
+git config --global user.name "kdjlyy"
+git config --global user.email "kdjlyy@qq.com"
+ssh-keygen -C "kdjlyy@qq.com" -t rsa
+一直按Enter键，知道出现randomart image，到C:\Users\kdjlyy\.ssh复制id_rsa.pub的全部内容，到github上新建一个SSH key
+git remote add origin https://github.com/kdjlyy/PythonCode.git
+转到更换同账号的github仓库方法
