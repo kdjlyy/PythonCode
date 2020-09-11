@@ -4,6 +4,7 @@ def greet():
     print("Hello!")
 greet()  # Hello!
 
+
 def greet2(username):
     print("Hello " + username.title() + "!")
 greet2("jesse")  # Hello Jesse!

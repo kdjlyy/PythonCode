@@ -19,10 +19,10 @@ print("\n\tPython")
 # rstrip() 删除字符串末尾空白部分
 favorite_language = "  Python Language "
 print(favorite_language.strip())  # Python Language
-print(favorite_language.lstrip())  # Python Language
+print(favorite_language.lstrip())  # Python Language_
 print(favorite_language.rstrip())  # __Python Language
 print(favorite_language.replace(" ", ""))  # PythonLanguage
 
 age = 21
 message = "Happy " + str(age) + "rd Birthday!"
-print(message)
+print(message)  # Happy 21rd Birthday!
