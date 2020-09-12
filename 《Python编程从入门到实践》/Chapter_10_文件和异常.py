@@ -86,18 +86,18 @@ This is appended message.
 
 
 # 异常 -- 使用try-except代码块
-# print("\nInput 2 number to divide them, 'q' to quit.")
-# while True:
-#     a = input("first num:")
-#     if a == 'q':
-#         break
-#     b = input("second number:")
-#     try:
-#         ans = int(a) / int(b)
-#     except ZeroDivisionError:
-#         print("can't divide by 0!")
-#     else:
-#         print(ans)
+print("\nInput 2 number to divide them, 'q' to quit.")
+while True:
+    a = input("first num:")
+    if a == 'q':
+        break
+    b = input("second number:")
+    try:
+        ans = int(a) / int(b)
+    except ZeroDivisionError:
+        print("can't divide by 0!")
+    else:
+        print(ans)
 """
 Input 2 number to divide them, 'q' to quit.
 first num:9
