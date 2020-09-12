@@ -1,0 +1,5 @@
+We would like to thank:
+isaf27 for coordinating and helping us with the problems.
+namanbansal013, postscript, morzer, Osama_Alkhodairy, csani, growup974, physics0523, bizhouziwei20 for testing the problems and providing useful feedback. Special thanks to csani for helping us with writing the editorials, and physics0523 for improving one problem's solution!
+c2020hxw, fisherking, fangzhijian2020 for discussing the problems with us.
+finally, MikeMirzayanov for great platforms Codeforces and Polygon!
