@@ -39,7 +39,7 @@ plt.ylabel("Square of Value", fontsize=14)
 
 # 设置每个坐标轴的取值范围
 plt.axis([0, 1000, 0, 1100000])
-plt.show()
+# plt.show()
 plt.savefig('squares_plot.png')
 
 
