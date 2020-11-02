@@ -1,3 +1,4 @@
+(git pull)先拉取更新
 git add .
 (git status)
 git commit -m "XXXX"//(XXX为注释 必须填)
@@ -28,3 +29,8 @@ ssh-keygen -C "kdjlyy@qq.com" -t rsa
 一直按Enter键，知道出现randomart image，到C:\Users\kdjlyy\.ssh复制id_rsa.pub的全部内容，到github上新建一个SSH key
 git remote add origin https://github.com/kdjlyy/PythonCode.git
 转到更换同账号的github仓库方法
+
+
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
